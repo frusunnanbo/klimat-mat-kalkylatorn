@@ -101,7 +101,7 @@ newAmount foodName amount =
 
 formatCo2Equivivalents : Float -> String
 formatCo2Equivivalents co2equivalents =
-  String.fromFloat co2equivalents ++ " kg CO2"
+  " * " ++ (String.fromFloat co2equivalents) ++ " kg CO2"
 
 sumCO2 : Dict String Float -> Float
 sumCO2 amounts =
