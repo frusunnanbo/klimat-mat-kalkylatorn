@@ -14,6 +14,7 @@ foodsDict =
   , ( "Ost", Food "Ost" 14.0)
   , ( "Griskött", Food "Griskött" 7.0)
   , ( "Fisk", Food "Fisk" 6.0)
+  , ( "Torskblock", Food "Torskblock" 1.3)
   , ( "Kyckling", Food "Kyckling" 4.0)
   , ( "Ägg", Food "Ägg" 2.0)
   , ( "Ris", Food "Ris" 2.0)
@@ -37,6 +38,7 @@ foods =
   , { name = "Ost", co2equivalents = 14.0 }
   , { name = "Griskött", co2equivalents = 7.0 }
   , { name = "Fisk", co2equivalents = 6.0 }
+  , { name = "Torskblock", co2equivalents = 1.3 }
   , { name = "Kyckling", co2equivalents = 4.0 }
   , { name = "Ägg", co2equivalents = 2.0 }
   , { name = "Ris", co2equivalents = 2.0 }
